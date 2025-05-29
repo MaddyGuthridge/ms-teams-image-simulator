@@ -1,0 +1,16 @@
+[project]
+name = "ms-teams-image-simulator"
+version = "0.1.0"
+description = "Simulate the image-processing pipeline used by Microsoft Teams"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.2.1",
+    "pillow>=11.2.1",
+]
+
+[project.scripts]
+ms-teams-image-simulator = "main:main"
+
+[tool.uv]
+package = true
